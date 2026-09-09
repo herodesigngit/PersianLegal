@@ -12,7 +12,8 @@ A production-oriented Persian Legal Retrieval and RAG pipeline combining:
 * Persistent ChromaDB vector storage
 
 The goal is to retrieve the most legally relevant articles from a Persian legal corpus for a given user question.
-
+Demo:
+<video src="./demo.mp4" controls width="800"></video>
 ---
 
 ## Architecture
