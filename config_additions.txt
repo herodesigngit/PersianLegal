@@ -1,0 +1,18 @@
+# Required additions to config.py
+
+If these attributes do not already exist in your PipelineConfig,
+add them:
+
+BM25_INDEX_PATH = "data/bm25.pkl"
+DOCUMENTS_INDEX_PATH = "data/documents.pkl"
+
+The existing attributes used by pipeline.py should remain:
+CHROMA_PERSIST_DIRECTORY
+CHROMA_COLLECTION_NAME
+OPENAI_MODEL
+MAPPER_TEMPERATURE
+INITIAL_TOP_K
+RRF_K
+W_DENSE
+W_BM25
+RRF_THRESHOLD_K
